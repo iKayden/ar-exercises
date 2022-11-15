@@ -12,8 +12,9 @@ puts "----------"
 # Your code goes here ...
 p "How do you call your store?"
 store_name = gets.chomp
+annual_revenue = gets.chomp
 
-p @new_store = Store.create(name: store_name)
+p @new_store = Store.create(name: store_name, annual_revenue: annual_revenue)
 
 if @new_store.errors.any?
   @new_store.errors.each do |attribute, message|
