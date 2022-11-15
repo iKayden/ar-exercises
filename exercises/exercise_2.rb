@@ -6,11 +6,13 @@ puts "----------"
 
 #1
 @store1 = Store.first
+# Store.find(1)
 puts @store1.id
 p @store1
 
 #2
 @store2 = Store.second
+#Store.find(2)
 puts @store2.id
 p @store2
 

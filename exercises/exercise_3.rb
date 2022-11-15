@@ -9,6 +9,7 @@ puts "----------"
 
 #1
 @store3 = Store.third
+#Store.find(3)
 p @store3
 
 #2
