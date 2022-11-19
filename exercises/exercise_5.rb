@@ -9,11 +9,11 @@ puts "----------"
 
 # Your code goes here ...
 #1
-p Store.sum("annual_revenue")
+# p Store.sum("annual_revenue")
 #2
 @average_revenue = Store.sum("annual_revenue") / Store.all.count
 #Store.average("annual_revenue")
-p @average_revenue
+# p @average_revenue
 #3
 @high_earners = Store.where(annual_revenue: 1000000..)
-p @high_earners.all.count
+# p @high_earners.all.count

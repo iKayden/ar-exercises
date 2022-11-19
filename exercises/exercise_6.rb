@@ -43,6 +43,6 @@ puts "----------"
 )
 
 # You cannot call create unless the parent is saved BUG
-p @store1.employees.all.count #> 3
-p @store2.employees.all.count #> 2
-p @store3.employees.all.count #> 1
+# p @store1.employees.all.count #> 3
+# p @store2.employees.all.count #> 2
+# p @store3.employees.all.count #> 1
